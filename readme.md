@@ -1,0 +1,1 @@
+amm -w myScript.sc
