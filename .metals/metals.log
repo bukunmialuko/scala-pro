@@ -182,3 +182,19 @@ Caused by: java.lang.IllegalArgumentException: 6 is not a valid line number, all
 [0m2021.12.31 23:09:19 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
 [0m2021.12.31 23:09:19 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
 [0m2021.12.31 23:09:39 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:39:22 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:39:23 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:40:32 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:40:50 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:41:01 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:42:47 ERROR scalafmt: /Users/user/ScalaProjects/scala-pro/myScript.sc:29: error: [dialect default] ) expected but ; found
+print(example1);
+               ^[0m
+[0m2021.12.31 23:42:47 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:42:54 ERROR scalafmt: /Users/user/ScalaProjects/scala-pro/myScript.sc:29: error: [dialect default] ) expected but ; found
+print(example1);
+               ^[0m
+[0m2021.12.31 23:42:54 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:43:15 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2021.12.31 23:43:25 WARN  no build target for: /Users/user/ScalaProjects/scala-pro/myScript.sc[0m
+[0m2022.01.01 05:43:55 INFO  shutting down Metals[0m
