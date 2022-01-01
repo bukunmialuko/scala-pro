@@ -1,16 +1,12 @@
-def isValidSudoku(grid: Array[Array[Int]]): Boolean = {
-  !Range(0, 9).exists { i =>
-    val row = Range(0, 9).map(grid(i)(_))
-    val col = Range(0, 9).map(grid(_)(i))
-    val square =
-      Range(0, 9).map(j => grid((i % 3) * 3 + j % 3)((i / 3) * 3 + j / 3))
-    row.distinct.length != row.length ||
-    col.distinct.length != col.length ||
-    square.distinct.length != square.length
-  }
+sealed trait Point
+case class Point2D(x: Double, y: Double) extends Point
+case class Point3D(x: Double, y: Double, z: Double) extends Point
+
+def hypotenuse(p: Point) = p match {
+  case Point2D(x, y)    => math.sqrt(x * x + y * y)
+  case Point3D(x, y, z) => math.sqrt(x * x + y * y + z * z)
 }
 
-val example1 = isValidSudoku(
-)
+val points: Array[Point] = Array(Point2D(1, 2), Point3D(4, 5, 6))
 
-print(example1);
+for (p <- points) println(hypotenuse(p))
